@@ -11,11 +11,11 @@ API_KEY = os.environ['OPENAI_API_KEY']
 llm = OpenAI(openai_api_key =  API_KEY, temperature = 0.9)
 
 prompt_template = PromptTemplate(
-    template = "Give me an example of a meal could be made using the following ingredeints : {ingredients}",
+    template = "Give me an example of 3 meals could be made using the following ingredeints : {ingredients}",
     input_variables= ['ingredients']
 )
 
-gangster_template = """Re-Write the meas given below in the style of a new york mafia 
+gangster_template = """Re-Write the meals given below in the style of a new york mafia 
 gangster:
 
 Meals:
