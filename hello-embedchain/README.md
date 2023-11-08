@@ -21,3 +21,6 @@ pip install "openai<1.0.0"
 ```bash
 streamlit run app.py
 ```
+
+![image](https://github.com/AnupamaDevindi/AI-Recipe-Generator/assets/47427215/609b245f-f0ff-4ad3-8c5d-a28a51c97983)
+
