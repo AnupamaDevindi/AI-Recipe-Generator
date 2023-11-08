@@ -6,7 +6,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain, SequentialChain
 
 load_dotenv()
-API_KEY = os.environ['OPENAI_API_KEY']
+API_KEY = "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"
 
 llm = OpenAI(openai_api_key =  API_KEY, temperature = 0.9)
 
